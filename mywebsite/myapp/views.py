@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def Homepage(request):
-    return render(request,'myapp/homepage.html')
+    return render(request,'myapp/homepage.html') #ดึงหน้าเว็บ
